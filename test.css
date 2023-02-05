@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background: #f1f1f1;
+}
+
+.container {
+    min-width: 470px;
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+hr {
+    /*color: black;*/
+    /*overflow: visible;*/
+    /*text-align: center;*/
+    /*height: 1px;*/
+    width: 500px;
+    margin-left: 0;
+    }
+
+/*hr:after {*/
+/*    background: #fff;*/
+/*    content: '§';*/
+/*    padding: 0 4px;*/
+/*    position: relative;*/
+/*    top: -13px;*/
+/*}*/
+h1, h3 {
+    font-weight: 600;
+}
+.avatar {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow:7px 7px 20px rgba(0, 0, 0, 0.4);
+}
+
+.info-text{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.info-text p {
+    font-style: italic;
+    color: #555;
+
+}
+
+.card {
+    border-radius: 10px;
+        padding: 10px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.hobby{
+    background: rgba(226, 232, 208, 0.67);
+}
+
+.history {
+    background: rgba(193, 236, 238, 0.5);
+}
+
+.contact {
+    background: rgba(241, 233, 182, 0.55);
+}
+
+th {
+    min-width: 160px;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+}
+
+#message {
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+#message:active {
+    border: none;
+}
+
+
+#message:focus {
+    border: none;
+}
+
+.btn {
+    font-family: inherit;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    background: #999;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.btn:hover {
+    color: #f1f1f1;
+}
+
+.btn:active {
+    background: #666;
+}
+
+.input {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
