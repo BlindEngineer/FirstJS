@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -10,7 +11,7 @@ body {
 
 .container {
     min-width: 470px;
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
     padding: 15px;
 }
@@ -20,8 +21,7 @@ hr {
     /*overflow: visible;*/
     /*text-align: center;*/
     /*height: 1px;*/
-    width: 500px;
-    margin-left: 0;
+    margin: 0;
     }
 
 /*hr:after {*/
@@ -34,15 +34,30 @@ hr {
 h1, h3 {
     font-weight: 600;
 }
+
+h1 {
+    margin: 0;
+}
+
+h3:first-of-type {
+    margin: 5px;
+}
+
 .avatar {
-    width: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     box-shadow:7px 7px 20px rgba(0, 0, 0, 0.4);
+    /*margin-bottom: 15px;*/
+}
+
+.info {
 }
 
 .info-text{
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
+    display: inline-block;
 }
 
 .info-text p {
@@ -69,8 +84,20 @@ h1, h3 {
     background: rgba(241, 233, 182, 0.55);
 }
 
+/*tbody tr:nth-child(odd) {*/
+/*    background: rgb(229, 242, 243);*/
+/*}*/
+tr {
+    padding-bottom: 5px;
+}
+
 th {
     min-width: 160px;
+    text-align: left;
+}
+
+td:nth-child(2), td:nth-child(3) {
+    color: #555;
 }
 
 a {
@@ -86,17 +113,30 @@ a:visited {
 }
 
 #message {
-    border-radius: 7px;
+    border-radius: 0px;
     font-size: 16px;
+    outline: 0;
+    outline-offset: 0;
+    border: none;
+    width: 95%;
+    border-left: #666666 1px solid;
+    background-color: transparent;
+    font-family: Poppins, sans-serif;
 }
 
 #message:active {
     border: none;
+    outline: 0;
+    outline-offset: 0;
+    /*border-left: #666666 1px solid;*/
 }
 
 
 #message:focus {
     border: none;
+    outline: 0;
+    outline-offset: 0;
+    /*border-left: #666666 1px solid;*/
 }
 
 .btn {
@@ -120,9 +160,30 @@ a:visited {
 
 .input {
     font-size: 20px;
-    margin-left: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+    border: none;
+    border-bottom: 1px solid #666666;
+    outline: 0;
+    outline-offset: 0;
+    border-radius: 0px;
+    width: 230px;
+    background-color: transparent;
+    font-family: Poppins, sans-serif;
+}
+
+.input::placeholder {
+    font-size: 16px;
+}
+
+.input:focus {
+    border: none;
 }
 
 form div {
     margin-bottom: 10px;
+}
+
+.fio {
+    display: inline-block;
 }

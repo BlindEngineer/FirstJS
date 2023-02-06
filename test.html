@@ -7,7 +7,7 @@
     <meta name="description" content="Резюме фронтенд-разработчика Антонио.">
     <meta name="keywords" content="site, CV, summary, work">
     <title>Antonio summary</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="styles/test.css">
 </head>
 <body>
 <div class="container">
@@ -15,7 +15,6 @@
     <img class="avatar" src="images/portfolio.png" alt="">
     <div class="info-text">
         <h1>Разработчик Антонио</h1>
-        <hr>
         <p>Испытываю истинное удовольствие от процесса написания кода.</p>
         <p>Люблю жить, творить, создавать.</p>
         <hr>
@@ -40,7 +39,7 @@
     <tr>
         <th>Место работы</th>
         <th>Должность</th>
-        <th>год</th>
+        <th>Год</th>
     </tr>
     </thead>
     <tbody>
@@ -65,19 +64,17 @@
 <div class="card contact">
 <h3>Связаться со мной</h3>
 <form>
-    <div>
+    <div class="fio">
         <label for="name"><b>Ваше имя:</b></label>
         <input id="name" class="input" placeholder="Введите имя">
     </div>
-    <div>
+    <div class="fio">
         <label for="email"><b>Ваш email:</b></label>
         <input type="email" id="email" class="input" placeholder="Введите email">
     </div>
     <div>
         <label for="message"><b>Ваше сообщение:</b></label><br>
-        <textarea id="message" placeholder="Введите сообщение..." cols="40" rows="15">
-
-        </textarea>
+        <textarea id="message" placeholder="Введите сообщение..." cols="50" rows="7"></textarea>
     </div>
     <div>
         <label for="submit"></label>
